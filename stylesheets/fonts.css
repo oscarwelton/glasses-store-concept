@@ -1,6 +1,5 @@
 h2 {
   font-size: 3rem;
-  padding: 1rem;
 }
 
 h4 {
@@ -17,4 +16,27 @@ h4 {
 
 .design img {
   width: 40%;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.footer div {
+  width: 23%;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+
 }
