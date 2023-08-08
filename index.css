@@ -1,0 +1,125 @@
+@import './stylesheets/reset.css';
+@import './stylesheets/fonts.css';
+
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  scrollbar-width: none;
+  -moz-scrollbar-width: none;
+  -webkit-scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  transition: background-color 0.3s ease-in-out;
+  align-items: center;
+  color: white;
+  width: 100%;
+  z-index: 2;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left p {
+  margin: 0 1rem;
+}
+
+.logo {
+  width: 100px;
+  padding: 0.5rem;
+}
+
+.nav-link a:hover .dropdown-content {
+  display: block;
+}
+
+.sale {
+  color: rgb(222, 67, 0);
+}
+
+
+.banner-section {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.half {
+  width: 50%;
+  position: relative;
+  opacity: 0.8;
+}
+
+.half button {
+  position: absolute;
+  z-index: 1;
+  right: 0%;
+  bottom: 0%;
+  font-size: 6rem;
+  font-weight: 100;
+  font-family: Poppins, sans-serif;
+  text-align: right;
+  border: none;
+  padding: 1rem 2rem;
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.half:hover {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.half button:hover {
+  transition: all 0.3s ease-in-out;
+  color: rgb(222, 67, 0);
+  cursor: pointer;
+}
+
+.banner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.navbar-scroll {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.new {
+  display: flex;
+  justify-content: space-around;
+}
+
+.new img {
+  width: 23%;
+  object-fit: cover;
+}
+
+.bestsellers {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 80%;
+}
