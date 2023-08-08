@@ -2,3 +2,19 @@ h2 {
   font-size: 3rem;
   padding: 1rem;
 }
+
+h4 {
+  font-size: 6rem;
+  padding: 1rem;
+  text-align: right;
+}
+
+.design {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+}
+
+.design img {
+  width: 40%;
+}
