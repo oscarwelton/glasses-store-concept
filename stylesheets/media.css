@@ -1,11 +1,10 @@
-@media all and (min-width: 1024px) and (max-width: 1280px) { }
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+}
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
-
- }
+}
 
 @media all and (min-width: 480px) and (max-width: 768px) {
-
   .sections {
     display: block;
     min-width: 350px;
@@ -15,11 +14,14 @@
     display: none;
   }
 
-  .mr {
-    margin-right: 0;
+  .nav-links {
+    display: none;
   }
 
- }
+  .menu-icon {
+    display: block;
+  }
+}
 
 @media all and (max-width: 480px) {
   .banner-section {
@@ -32,7 +34,6 @@
     overflow: hidden;
   }
 
-
   .sections {
     display: block;
     min-width: 350px;
@@ -42,9 +43,12 @@
     display: none;
   }
 
-
-  .mr {
-    margin-right: 0;
+  .nav-links {
+    display: none;
   }
 
- }
+  .menu-icon {
+    display: block;
+    padding: 1rem;
+  }
+}

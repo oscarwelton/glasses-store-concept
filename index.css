@@ -1,10 +1,10 @@
 @import './stylesheets/reset.css';
 @import './stylesheets/fonts.css';
-@import './stylesheets/media.css';
 @import './stylesheets/banner.css';
 @import './stylesheets/navbar.css';
 @import './stylesheets/section.css';
 @import './stylesheets/footer.css';
+@import './stylesheets/media.css';
 
 body {
   margin: 0;
@@ -17,19 +17,4 @@ body {
 
 body::-webkit-scrollbar {
   display: none;
-}
-
-
-.new {
-  display: flex;
-  justify-content: space-between;
-}
-
-.new::-webkit-scrollbar {
-  display: none;
-}
-
-.new img {
-  width: 47%;
-  object-fit: cover;
 }
