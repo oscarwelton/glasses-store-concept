@@ -3,13 +3,13 @@ h2 {
 }
 
 h4 {
-  font-size: 7vw;
+  font-size: 6vw;
   padding: 1rem;
   text-align: right;
 }
 
 .design {
-  display: flex;
+  /* display:; */
   padding: 1rem;
 }
 
@@ -64,4 +64,26 @@ h4 {
 .inner-image {
   width: 45vw;
   padding: 1rem;
+  object-fit: cover;
+}
+
+.two {
+  display: flex;
+}
+
+
+.two img {
+  width: 20vw;
+  padding: 1rem;
+}
+
+
+.one {
+  display: flex;
+  align-items: flex-start;
+}
+
+
+.text-box {
+  width: 50%;
 }
