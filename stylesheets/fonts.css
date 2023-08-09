@@ -8,11 +8,6 @@ h4 {
   text-align: right;
 }
 
-.design {
-  /* display:; */
-  padding: 1rem;
-}
-
 .section-header {
   display: flex;
   justify-content: space-between;
@@ -24,6 +19,8 @@ h4 {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+  margin-top: 2rem;
+  border-top: 1px solid black;
 }
 
 .spacer {
@@ -81,9 +78,30 @@ h4 {
 .one {
   display: flex;
   align-items: flex-start;
+  width: 100%;
 }
 
+.two {
+  width: 50%;
+}
 
 .text-box {
+  padding: 1rem;
   width: 50%;
+  margin: 0 auto;
+}
+
+.text-box p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.count:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sections {
+  display: flex;
+  padding: 1rem;
 }
