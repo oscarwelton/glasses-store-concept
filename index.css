@@ -1,5 +1,5 @@
-@import "./stylesheets/reset.css";
-@import "./stylesheets/fonts.css";
+@import './stylesheets/reset.css';
+@import './stylesheets/fonts.css';
 
 body {
   margin: 0;
@@ -55,14 +55,15 @@ body::-webkit-scrollbar {
   color: rgb(222, 67, 0);
 }
 
+
 .banner-section {
   display: flex;
+  height: 100vh;
   overflow: hidden;
 }
 
 .half {
   width: 50%;
-  height: fit-content;
   position: relative;
   opacity: 0.8;
 }
@@ -73,7 +74,7 @@ body::-webkit-scrollbar {
   z-index: 1;
   right: 0%;
   bottom: 0%;
-  font-size: 6rem;
+  font-size: 7vw;
   font-family: Poppins, sans-serif;
   text-align: right;
   border: none;
@@ -99,6 +100,7 @@ body::-webkit-scrollbar {
   margin: 0 auto;
 }
 
+
 .navbar-scroll {
   color: black;
   background-color: rgb(255, 255, 255);
@@ -111,6 +113,7 @@ body::-webkit-scrollbar {
   scrollbar-width: none;
   -moz-scrollbar-width: none;
   -webkit-scrollbar-width: none;
+
 }
 
 .new::-webkit-scrollbar {
