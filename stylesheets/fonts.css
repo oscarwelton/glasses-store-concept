@@ -15,48 +15,6 @@ h4 {
   padding: 1rem;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  margin-top: 2rem;
-  border-top: 1px solid black;
-}
-
-.spacer {
-  margin: 1rem 0rem;
-  height: 3rem;
-  background-color: black;
-}
-
-.footer div {
-  width: 23%;
-}
-
-.footer-logo {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-}
-
-.footer-logo img {
-  width: 50%;
-}
-
-.socials {
-  display: flex;
-  flex-direction: column;
-}
-
-
-.footer p {
-  margin-bottom: 0.5rem;
-}
-
-.footer p:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
 
 .inner-image {
   width: 45vw;
@@ -79,6 +37,10 @@ h4 {
   display: flex;
   align-items: flex-start;
   width: 100%;
+}
+
+.mr {
+  margin-right: 1rem;
 }
 
 .two {

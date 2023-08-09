@@ -3,6 +3,8 @@
 @import './stylesheets/media.css';
 @import './stylesheets/banner.css';
 @import './stylesheets/navbar.css';
+@import './stylesheets/section.css';
+@import './stylesheets/footer.css';
 
 body {
   margin: 0;
@@ -20,7 +22,7 @@ body::-webkit-scrollbar {
 
 .new {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .new::-webkit-scrollbar {
