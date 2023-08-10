@@ -1,7 +1,6 @@
 
 .sections {
   display: flex;
-  /* padding: 1rem; */
 }
 
 
@@ -121,17 +120,7 @@
   cursor: pointer;
 }
 
-.product-image::after {
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  content: "Click to view";
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
 .product-image:hover::after {
-  opacity: 1;
+  background-color: blue;
+  content: "Click to view";
 }
