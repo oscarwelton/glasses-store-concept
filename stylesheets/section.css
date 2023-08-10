@@ -40,18 +40,8 @@
 }
 
 .poem-text {
-  font-weight: 700;
-  z-index: 2;
-  width: 50%;
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  background-image: linear-gradient(to left, rgb(255, 230, 39), rgb(255, 255, 255));
+  font-size: 3vw;
 }
 
 .text-box {
@@ -66,16 +56,48 @@
 }
 
 .first-img {
-  height: 20vw;
+  width: 50vw;
+  height: 50vh;
   object-fit: cover;
+  padding: 1rem;
+}
+
+.big-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.small-img {
+  width: 15vw;
+  object-fit: cover;
+  padding: 1rem;
+}
+
+.image-section {
+  display: flex;
+  padding: 0rem 1rem;
+
+}
+
+.image-collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: fit-content;
+}
+
+.image-collection p {
+  transform: rotate(-90deg) translate(-100%, 0);
+
+
 }
 
 .product-paragraph {
+  padding: 1rem 0rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  font-weight: 900;
-  border-top: 1px solid rgb(255, 230, 39);
+  border-top: 1px solid rgb(90, 62, 150);
   border-bottom: 1px solid rgb(255, 230, 39);
 }
 
