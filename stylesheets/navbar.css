@@ -1,11 +1,13 @@
 
 .navbar {
-  position: fixed;
+  transition: transform 1s ease-in-out;
+  transform: translateY(-100%);
   display: flex;
+  position: fixed;
   justify-content: space-between;
   transition: background-color 0.3s ease-in-out;
   align-items: center;
-  color: white;
+  background-color: white;
   width: 100vw;
   z-index: 2;
   pointer-events: none;
@@ -39,12 +41,6 @@
 
 .sale {
   color: rgb(222, 67, 0);
-}
-
-.navbar-scroll {
-  color: black;
-  background-color: rgb(255, 255, 255);
-  transition: background-color 0.3s ease-in-out;
 }
 
 .menu-icon {

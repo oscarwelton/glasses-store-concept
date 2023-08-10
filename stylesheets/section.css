@@ -66,10 +66,10 @@
 }
 
 .small-img {
-  width: 14vw;
+  width: 16vw;
   object-fit: cover;
   object-position: center;
-  padding: 0.5rem;
+  padding: 0.5rem 0rem;
   transition: transform 0.3s ease;
   transform-origin: center;
 }
@@ -86,8 +86,9 @@
 .image-collection {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   width: fit-content;
+  padding: 0.5rem 1rem 0.5rem 0rem
 }
 
 .image-collection p {
@@ -101,11 +102,36 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  border-top: 1px solid rgb(90, 62, 150);
-  border-bottom: 1px solid rgb(255, 230, 39);
+  border-top: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .product-paragraph h5 {
   text-align: center;
   font-size: 1.75rem;
+}
+
+.product-image {
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.product-image:hover {
+  filter: blur(3px); ;
+  cursor: pointer;
+}
+
+.product-image::after {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "Click to view";
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.product-image:hover::after {
+  opacity: 1;
 }
