@@ -13,9 +13,7 @@ h4 {
   text-align: right;
 }
 
-
 .count:hover {
   text-decoration: underline;
-  color: rgb(255, 230, 39);
   cursor: pointer;
 }
