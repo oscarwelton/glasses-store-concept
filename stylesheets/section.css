@@ -62,19 +62,24 @@
 }
 
 .extra-img {
-  display: none;
+  display: block;
 }
 
 .small-img {
-  width: 10vw;
+  width: 14vw;
   object-fit: cover;
-  padding: 1rem;
+  object-position: center;
+  padding: 0.5rem;
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.small-img:hover {
+  transform: scale(1.05);
 }
 
 .image-section {
   display: flex;
-  padding: 0rem 1rem;
-
 }
 
 .image-collection {
