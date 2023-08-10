@@ -31,17 +31,10 @@
   height: max-content;
 }
 
-.first-image {
-  object-fit: cover;
-  position: relative;
-  left: 0%;
-  width: 50vw;
-  z-index: 1;
-}
-
 .poem-text {
   text-align: center;
   font-size: 3vw;
+  padding: 1rem;
 }
 
 .text-box {
@@ -56,9 +49,10 @@
 }
 
 .first-img {
-  width: 50vw;
+  width: 45vw;
   height: 50vh;
   object-fit: cover;
+  object-position: center;
   padding: 1rem;
 }
 
