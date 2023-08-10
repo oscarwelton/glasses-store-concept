@@ -1,8 +1,6 @@
-
 .sections {
   display: flex;
 }
-
 
 .section-header {
   display: flex;
@@ -24,6 +22,12 @@
   width: 48%;
   object-fit: cover;
 }
+
+.count:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 
 .poem {
   position: relative;
@@ -92,8 +96,6 @@
 
 .image-collection p {
   transform: rotate(-90deg) translate(-100%, 0);
-
-
 }
 
 .product-paragraph {
@@ -113,7 +115,7 @@
 .product-image {
   transition: all 0.3s ease-in-out;
   position: relative;
-  z-index: 1; /* Add this line */
+  z-index: 1;
 }
 
 .product-image:hover {

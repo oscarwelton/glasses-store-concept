@@ -1,7 +1,6 @@
 .banner {
   display: flex;
   min-width: 320px;
-  /* position: absolute; */
 }
 
 .banner div {

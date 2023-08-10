@@ -12,8 +12,3 @@ h4 {
   padding: 1rem;
   text-align: right;
 }
-
-.count:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
