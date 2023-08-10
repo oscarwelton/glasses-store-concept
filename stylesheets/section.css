@@ -80,12 +80,13 @@
 
 .image-section {
   display: flex;
+  justify-content: center;
 }
 
 .image-collection {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   width: fit-content;
 }
 

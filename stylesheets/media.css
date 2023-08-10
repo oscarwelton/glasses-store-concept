@@ -2,9 +2,6 @@
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  .extra-img {
-    display: none;
-  }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
@@ -25,12 +22,8 @@
     display: block;
   }
 
-  .extra-img {
-    display: none;
-  }
-
   .small-img {
-    width: 17vw
+    width: 13vw
   }
 }
 
